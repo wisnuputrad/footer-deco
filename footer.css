@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+.container {
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 140px;
+}
+
+footer{
+  background-color: #FFFFFF;
+  width: 100%;
+  padding:57px 0px;
+  height:150px
+}
+
+
+footer img{
+  width: 100px;
+  height: 35px;
+  float:left
+
+}
+
+footer p{
+  float:right;
+  font-size:20px
+  display:block;
+  font-family:'Montserrat', sans-serif;
+  
+ @media all and (max-width: 670px){
+
+    footer img{
+        display:none;
+      }
+      
+    footer{
+        text-align:center;
+      }
+      
+  }
+
+  
